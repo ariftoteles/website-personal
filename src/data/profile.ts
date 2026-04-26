@@ -6,7 +6,7 @@ export const profile = {
   email: "arif.santoso4@gmail.com",
   linkedin: "https://www.linkedin.com/in/ariftoteles",
   summary:
-    "Backend engineer with 5+ years of experience building scalable, production-grade systems in Golang, Node.js, and .NET across EdTech and HealthTech domains. Currently leveraging AI agent workflows to accelerate development cycles — from automated code generation and intelligent test scaffolding to AI-assisted API design and observability. Comfortable owning full backend stacks: microservices, event-driven architecture, gRPC, search, caching, and cloud infrastructure. Fast learner who thrives in cross-functional teams shipping high-impact products.",
+    "Software engineer with 5+ years of experience building scalable, production-grade systems in Golang, Node.js, and .NET across EdTech and HealthTech domains. Currently leveraging AI agent workflows to accelerate development cycles — from automated code generation and intelligent test scaffolding to AI-assisted API design and observability. Comfortable owning full backend stacks: microservices, event-driven architecture, gRPC, search, caching, and cloud infrastructure. Fast learner who thrives in cross-functional teams shipping high-impact products.",
 };
 
 export const experiences = [
