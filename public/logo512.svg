@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="96" fill="#0f172a"/>
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#grad)"/>
+  <!-- Left bracket -->
+  <path d="M112 160 L64 256 L112 352" stroke="#93c5fd" stroke-width="28" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Right bracket -->
+  <path d="M400 160 L448 256 L400 352" stroke="#93c5fd" stroke-width="28" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- AS text -->
+  <text x="256" y="300" text-anchor="middle" font-family="'Inter', 'Segoe UI', sans-serif" font-weight="700" font-size="144" fill="white" letter-spacing="-6">AS</text>
+</svg>

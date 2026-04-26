@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Arif Santoso",
+  "name": "Arif Santoso — Backend Software Engineer",
+  "description": "Portfolio website of Arif Santoso, Backend Software Engineer specializing in Golang, Node.js, and .NET microservices.",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,18 +9,25 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
-      "type": "image/png",
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo192.svg",
+      "type": "image/svg+xml",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
-      "type": "image/png",
+      "src": "logo512.svg",
+      "type": "image/svg+xml",
       "sizes": "512x512"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#1d4ed8",
+  "background_color": "#0a0f1e",
+  "orientation": "portrait-primary"
 }

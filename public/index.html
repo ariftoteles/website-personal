@@ -2,42 +2,57 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+
+    <!-- Favicon — SVG data URI bypasses browser cache -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSI+CiAgPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTIiIGZpbGw9IiMwZjE3MmEiLz4KICA8cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxMiIgZmlsbD0idXJsKCNncmFkKSIvPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiB4MT0iMCIgeTE9IjAiIHgyPSI2NCIgeTI9IjY0IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMxZDRlZDgiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMjU2M2ViIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8IS0tIExlZnQgYnJhY2tldCAtLT4KICA8cGF0aCBkPSJNMTQgMjAgTDggMzIgTDE0IDQ0IiBzdHJva2U9IiM5M2M1ZmQiIHN0cm9rZS13aWR0aD0iMy41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiLz4KICA8IS0tIFJpZ2h0IGJyYWNrZXQgLS0+CiAgPHBhdGggZD0iTTUwIDIwIEw1NiAzMiBMNTAgNDQiIHN0cm9rZT0iIzkzYzVmZCIgc3Ryb2tlLXdpZHRoPSIzLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSIvPgogIDwhLS0gQVMgbGV0dGVycyAtLT4KICA8dGV4dCB4PSIzMiIgeT0iMzciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSInSW50ZXInLCAnU2Vnb2UgVUknLCBzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iNzAwIiBmb250LXNpemU9IjE4IiBmaWxsPSJ3aGl0ZSIgbGV0dGVyLXNwYWNpbmc9Ii0wLjUiPkFTPC90ZXh0Pgo8L3N2Zz4K" />
+    <link rel="icon" type="image/x-icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.svg" />
+
+    <!-- Primary Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <meta name="theme-color" content="#1d4ed8" />
+    <title>Arif Santoso — Backend Software Engineer</title>
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Backend Software Engineer with 5+ years of experience building scalable, production-grade systems in Golang, Node.js, and .NET. Specialized in microservices, event-driven architecture, gRPC, and cloud infrastructure across EdTech and HealthTech domains."
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <meta name="keywords" content="Arif Santoso, Backend Engineer, Golang, Node.js, .NET, Microservices, gRPC, Software Engineer, Indonesia, EdTech, HealthTech" />
+    <meta name="author" content="Arif Santoso" />
+    <meta name="robots" content="index, follow" />
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Arif Santoso — Backend Software Engineer" />
+    <meta
+      property="og:description"
+      content="Backend Software Engineer with 5+ years building scalable systems in Golang, Node.js, and .NET. Expert in microservices, event-driven architecture, and cloud infrastructure."
+    />
+    <meta property="og:image" content="%PUBLIC_URL%/logo512.svg" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Arif Santoso Portfolio" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Arif Santoso — Backend Software Engineer" />
+    <meta
+      name="twitter:description"
+      content="Backend Software Engineer with 5+ years building scalable systems in Golang, Node.js, and .NET. Expert in microservices, event-driven architecture, and cloud infrastructure."
+    />
+    <meta name="twitter:image" content="%PUBLIC_URL%/logo512.svg" />
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>
