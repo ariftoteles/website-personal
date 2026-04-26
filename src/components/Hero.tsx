@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FiMail, FiLinkedin, FiMapPin, FiPhone } from 'react-icons/fi';
+import { FiMail, FiLinkedin, FiMapPin } from 'react-icons/fi';
+import { FaWhatsapp } from 'react-icons/fa';
 import { profile } from '../data/profile';
 
 const fadeUp = (delay: number) => ({
@@ -63,8 +64,8 @@ const Hero: React.FC = () => (
           {profile.location}
         </span>
         <span className="text-dark-600">|</span>
-        <a href={`tel:${profile.phone}`} className="flex items-center gap-1.5 hover:text-primary-400 transition-colors">
-          <FiPhone className="text-primary-400" />
+        <a href={`https://wa.me/${profile.phone.replace(/\D/g, '')}`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 hover:text-primary-400 transition-colors">
+          <FaWhatsapp className="text-primary-400" />
           {profile.phone}
         </a>
         <span className="text-dark-600">|</span>

@@ -1,7 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from '../hooks/useInView';
-import { FiMail, FiLinkedin, FiPhone, FiMapPin } from 'react-icons/fi';
+import { FiMail, FiLinkedin, FiMapPin } from 'react-icons/fi';
+import { FaWhatsapp } from 'react-icons/fa';
 import type { IconType } from 'react-icons';
 import { profile } from '../data/profile';
 
@@ -28,10 +29,11 @@ const contactLinks: ContactLink[] = [
     external: true,
   },
   {
-    Icon: FiPhone,
-    label: 'Phone',
+    Icon: FaWhatsapp,
+    label: 'WhatsApp',
     value: profile.phone,
-    href: `tel:${profile.phone}`,
+    href: `https://wa.me/${profile.phone.replace(/\D/g, '')}`,
+    external: true,
   },
   {
     Icon: FiMapPin,
